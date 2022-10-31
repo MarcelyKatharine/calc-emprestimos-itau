@@ -83,6 +83,7 @@ export const SectionForm = styled.section`
   align-items: center;
   justify-content: center;
 
+  max-width: 1200px;
   width: 100%;
   height: 450px;
 
@@ -93,7 +94,8 @@ export const Steps = styled.div`
   display: flex;
   flex-direction: column;
 
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
   height: 350px;
 
   border-radius: 5px;
@@ -206,10 +208,33 @@ p {
     }
   `
 
+export const FirstStep = styled.section`
+display: flex;
+
+margin-top: 50px;
+
+width: 100%;
+height: auto;
+align-self: flex-end;
+justify-content: center;
+gap: 30px;
+
+button {
+border: none;
+background-color: #EC7000;
+color: white;
+border-radius: 5px;
+width: 110px;
+height: 40px;
+font-weight: bold;
+}
+`
+
   export const ResultSection = styled.section`
     display: flex;
 
-    width: 58%;
+    max-width: 1100px;
+    width: 100%;
     height: 200px;
 
     border-radius: 5px;
@@ -279,11 +304,11 @@ export const Footer = styled.footer`
   flex-direction: row;
   position: absolute;
   padding-top: 20px;
+  padding: 20px 50px 0;
   bottom: 0;
-  gap: 1400px;
 
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 
 
   width: 100%;

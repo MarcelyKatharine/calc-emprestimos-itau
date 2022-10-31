@@ -9,7 +9,14 @@ export default createGlobalStyle`
   };
   button {
     cursor: pointer;
-  }
+  };
+  button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: default;
+}
 #root {
   display: flex;
   align-items: center;
