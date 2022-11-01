@@ -182,6 +182,14 @@ const calcular = () => {
   # A mesma regra vale para o INPUT.
 ```
 
+8. Trabalhei na responsividade do projeto para que tornasse responsivo para os dispositivos móveis.
+
+DIFICULDADES ENCONTRADAS:
+
+Escolhi usar o react como desafio para mim mesma, tive bastante dificuldade com as nomenclaturas que são diferentes do que estou mais acostumada que é HTML / CSS / JAVASCRIPT, mas tive menos dificuldade do que esperava pois os principios são bem similares e isso despertou mais vontade de estudar outros frameworks.
+
+Como fiz um layout prévio e queria deixar o design o mais fiel possível encontrei algumas dificuldades com estilização que busquei ajuda na internet e mesmo assim tive que quebrar a cabeça para resolver e ainda assim, tive que abrir mão de algumas ideias por não ter conseguido desenvolver da maneira que queria, mas espero aprender como fazer futuramente.
+
 ##
 
 <h3 align="center">
