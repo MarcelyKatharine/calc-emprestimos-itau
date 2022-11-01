@@ -67,7 +67,7 @@ function App() {
       </button>
       </a>
 
-      <a href="https://github.com/MarcelyKatharine/calc-emprestimos-itau/tree/master" target="_blank">
+      <a href="https://github.com/MarcelyKatharine/calc-emprestimos-itau" target="_blank">
         <button>
         <img src={MessageIcon} alt="Botão com ícone de mensagem" />
       </button>
