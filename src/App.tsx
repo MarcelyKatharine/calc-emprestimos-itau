@@ -43,8 +43,8 @@ function App() {
     setCnpj('');
     setValue('');
     setMonths('');
-    setTotal(0);
-    setMonthValue(0);
+    setTotal(undefined);
+    setMonthValue(undefined);
     setShowResult(false);
     setStep(1);
   }
@@ -75,6 +75,8 @@ function App() {
 
       </S.HeaderButtons>
     </S.Header>
+
+    <S.Body>
 
       <S.SectionForm>
         <S.Steps>
@@ -192,7 +194,8 @@ function App() {
           </S.ResultSection>
           )}
       
-
+      </S.Body>
+      
     <S.Footer>
     <img src={LogoEmpresa} alt="Imagem do logo do itau empresas" />
       <p>Desenvolvido por: <br/>Marcely Katharine <br/> 2022 ©</p>
